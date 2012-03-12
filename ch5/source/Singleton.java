@@ -1,7 +1,11 @@
 public class Singleton
 {
   private volatile static Singleton uniqueIntance;
-  private Singleton();
+  private Singleton()
+  {
+    
+  }
+  
   public static Singleton getInstance()
   {
     if (uniqueIntance == null)
